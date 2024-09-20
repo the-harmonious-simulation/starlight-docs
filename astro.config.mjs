@@ -6,9 +6,9 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Saas Template Docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'http://the-harmonious-simulation.github.io/starlight-docs',
 			},
 			sidebar: [
 				{
@@ -21,6 +21,10 @@ export default defineConfig({
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'FAQ',
+					autogenerate: { directory: 'faq' },
 				},
 			],
 		}),
