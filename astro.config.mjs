@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://the-harmonious-simulation.github.io',
+	base: '/starlight-docs',
 	integrations: [
 		starlight({
 			title: 'Saas Template Docs',
